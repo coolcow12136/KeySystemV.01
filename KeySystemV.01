@@ -1,0 +1,133 @@
+
+                            ---- Key System V.01 -----
+
+                --[[Out Dated Version (V.01)]]
+
+------ Made By cool cow / stick cow#5297 -------
+
+local ScreenGui = Instance.new("ScreenGui")
+local KeySystemFrame = Instance.new("ImageLabel")
+local TitleNameitWhatever = Instance.new("TextLabel")
+local TitleNameitWhatever_Roundify_12px = Instance.new("ImageLabel")
+local Close = Instance.new("TextButton")
+local Close_Roundify_12px = Instance.new("ImageLabel")
+local KeyHere = Instance.new("TextBox")
+local SumbitKey = Instance.new("TextButton")
+
+--Properties:
+
+ScreenGui.Parent = game.CoreGui
+
+KeySystemFrame.Name = "KeySystemFrame"
+KeySystemFrame.Parent = ScreenGui
+KeySystemFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+KeySystemFrame.BackgroundTransparency = 1.000
+KeySystemFrame.Position = UDim2.new(0.422680259, 0, 0.337175846, 0)
+KeySystemFrame.Size = UDim2.new(0, 427, 0, 225)
+KeySystemFrame.Image = "rbxassetid://3570695787"
+KeySystemFrame.ImageColor3 = Color3.fromRGB(71, 71, 71)
+KeySystemFrame.ScaleType = Enum.ScaleType.Slice
+KeySystemFrame.SliceCenter = Rect.new(100, 100, 100, 100)
+KeySystemFrame.SliceScale = 0.120
+KeySystemFrame.Active = true
+KeySystemFrame.Draggable = true
+
+TitleNameitWhatever.Name = "Title (Name it Whatever)"
+TitleNameitWhatever.Parent = KeySystemFrame
+TitleNameitWhatever.BackgroundColor3 = Color3.fromRGB(125, 38, 255)
+TitleNameitWhatever.BackgroundTransparency = 1.000
+TitleNameitWhatever.BorderSizePixel = 0
+TitleNameitWhatever.Position = UDim2.new(0.129807696, 0, 0.0472103059, 0)
+TitleNameitWhatever.Size = UDim2.new(0, 288, 0, 50)
+TitleNameitWhatever.ZIndex = 2
+TitleNameitWhatever.Font = Enum.Font.SourceSans
+TitleNameitWhatever.Text = "Title (Name it Whatever)" ---- change text here ----
+TitleNameitWhatever.TextColor3 = Color3.fromRGB(0, 0, 0)
+TitleNameitWhatever.TextScaled = true
+TitleNameitWhatever.TextSize = 14.000
+TitleNameitWhatever.TextWrapped = true
+
+TitleNameitWhatever_Roundify_12px.Name = "Title (Name it Whatever)_Roundify_12px"
+TitleNameitWhatever_Roundify_12px.Parent = TitleNameitWhatever
+TitleNameitWhatever_Roundify_12px.AnchorPoint = Vector2.new(0.5, 0.5)
+TitleNameitWhatever_Roundify_12px.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TitleNameitWhatever_Roundify_12px.BackgroundTransparency = 1.000
+TitleNameitWhatever_Roundify_12px.Position = UDim2.new(0.5, 0, 0.5, 0)
+TitleNameitWhatever_Roundify_12px.Size = UDim2.new(1, 0, 1, 0)
+TitleNameitWhatever_Roundify_12px.Image = "rbxassetid://3570695787"
+TitleNameitWhatever_Roundify_12px.ImageColor3 = Color3.fromRGB(125, 38, 255)
+TitleNameitWhatever_Roundify_12px.ScaleType = Enum.ScaleType.Slice
+TitleNameitWhatever_Roundify_12px.SliceCenter = Rect.new(100, 100, 100, 100)
+TitleNameitWhatever_Roundify_12px.SliceScale = 0.120
+
+Close.Name = "Close"
+Close.Parent = KeySystemFrame
+Close.BackgroundColor3 = Color3.fromRGB(255, 0, 4)
+Close.BackgroundTransparency = 1.000
+Close.BorderSizePixel = 0
+Close.Position = UDim2.new(0.872596145, 0, 0.0472103059, 0)
+Close.Size = UDim2.new(0, 41, 0, 50)
+Close.ZIndex = 2
+Close.Font = Enum.Font.SourceSans
+Close.Text = "X"
+Close.TextColor3 = Color3.fromRGB(0, 0, 0)
+Close.TextSize = 14.000
+
+Close_Roundify_12px.Name = "Close_Roundify_12px"
+Close_Roundify_12px.Parent = Close
+Close_Roundify_12px.Active = true
+Close_Roundify_12px.AnchorPoint = Vector2.new(0.5, 0.5)
+Close_Roundify_12px.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Close_Roundify_12px.BackgroundTransparency = 1.000
+Close_Roundify_12px.Position = UDim2.new(0.5, 0, 0.5, 0)
+Close_Roundify_12px.Selectable = true
+Close_Roundify_12px.Size = UDim2.new(1, 0, 1, 0)
+Close_Roundify_12px.Image = "rbxassetid://3570695787"
+Close_Roundify_12px.ImageColor3 = Color3.fromRGB(255, 0, 4)
+Close_Roundify_12px.ScaleType = Enum.ScaleType.Slice
+Close_Roundify_12px.SliceCenter = Rect.new(100, 100, 100, 100)
+Close_Roundify_12px.SliceScale = 0.120
+
+KeyHere.Name = "KeyHere"
+KeyHere.Parent = KeySystemFrame
+KeyHere.BackgroundColor3 = Color3.fromRGB(255, 85, 0)
+KeyHere.Position = UDim2.new(0.206730768, 0, 0.334763944, 0)
+KeyHere.Size = UDim2.new(0, 200, 0, 50)
+KeyHere.Font = Enum.Font.SourceSans
+KeyHere.PlaceholderText = "Key Here"
+KeyHere.Text = ""
+KeyHere.TextColor3 = Color3.fromRGB(0, 0, 0)
+KeyHere.TextScaled = true
+KeyHere.TextSize = 14.000
+KeyHere.TextWrapped = true
+
+SumbitKey.Name = "SumbitKey"
+SumbitKey.Parent = KeySystemFrame
+SumbitKey.BackgroundColor3 = Color3.fromRGB(255, 85, 0)
+SumbitKey.Position = UDim2.new(0.129807696, 0, 0.699570835, 0)
+SumbitKey.Size = UDim2.new(0, 288, 0, 50)
+SumbitKey.Font = Enum.Font.SourceSans
+SumbitKey.Text = "SubmitKey"
+SumbitKey.TextColor3 = Color3.fromRGB(0, 0, 0)
+SumbitKey.TextScaled = true
+SumbitKey.TextSize = 14.000
+SumbitKey.TextWrapped = true
+SumbitKey.MouseButton1Down:connect(function()
+if KeyHere.Text == "test" then 
+    KeySystemFrame.Visible = false
+    ----- Key Here -----
+end
+    end)
+
+-- Scripts:
+
+local function NYVFIF_fake_script() -- Close.Script 
+	local script = Instance.new('Script', Close)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Visible = false
+	end)
+	
+	
+end
+coroutine.wrap(NYVFIF_fake_script)()
